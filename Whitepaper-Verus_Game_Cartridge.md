@@ -296,7 +296,7 @@ graph TD
     S3 \==\>|Proof| V\[AUDITED ASSET VALUE\]
 ```
 
-\<image here\>
+[Game Loop Example](./game-loop-example.png)
 
 ### **A.2 Python Audit Script (The "Cartridge Reader")**
 
