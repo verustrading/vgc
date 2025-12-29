@@ -258,7 +258,7 @@ The **Verus Game Cartridge** creates a new standard for blockchain gaming: **"Th
 ### **A.1 Game Loop Diagram**
 
 This mermaid digram can be rendered at mermaid.live  
-```mermaid
+```
 graph TD  
     %% THE WORLD STREAM (Deterministic)  
     subgraph "THE WORLD (Immutable)"  
@@ -394,6 +394,7 @@ parse\_memo("0301021000C8")
 
 ### **A.3 Location environment**
 
+```python
 \# Use the first 2 hex chars (0-255) to pick a location  
 location\_seed \= int(txid\_hash\[:2\], 16\)
 
@@ -403,9 +404,9 @@ elif location\_seed \> 200:
     biome \= "TUNDRA" \# Base temp \-15, Lemon prices x3 (Import tax)  
 else:  
     biome \= "PLAINS" \# Standard
-
+```
 ### **A.4 Generate Weather/Seasonality**
-
+```python
 import math  
 import random
 
@@ -468,9 +469,9 @@ def generate\_forecast(txid\_hash):
         forecast.append(week\_data)
 
     return forecast
-
+```
 ### **A.5 Bit Packing Psuedo Code**
-
+```python
 import struct
 
 def pack\_move\_buy(item\_id, quantity):  
@@ -495,4 +496,4 @@ move1 \= pack\_move\_buy(0xC1, 50\) \# Buy 50 Cups
 packet \= create\_packet(5, \[move1\], b'\\xA1\\xB2\\xC3\\xD4')
 
 print(f"VDXF Payload: {packet}")
-
+```
