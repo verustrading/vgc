@@ -1,7 +1,7 @@
 # Verus Game Cartridge (VGC)
 This Whitepaper Summary consolidates Seed Logic, VDXF Architecture, and Economic Model into a single roadmap for the Verus Game Cartridge Protocol.
 
-It’s in a similar spirit to jl777’s ROGUE, but for a lemonade stand game as an example.
+It’s in a similar spirit to [jl777](https://github.com/jl777)’s [ROGUE](https://komodoplatform.com/en/blog/tt2019-7-rogue-blockchain-gaming-tournaments-tokenization-collectibles-trading/) featuring [proof-of-gameplay](https://medium.com/@jameslee777/cc-design-proof-of-gameplay-6a63b86da5e5) with extra thoughts in [part 2](https://medium.com/@jameslee777/cc-design-proof-of-gameplay-attack-vector-and-mitigation-aa8580364c) and related expansion for [multiplayer](https://medium.com/@jameslee777/cc-design-proof-of-gameplay-multiplayer-rng-for-realtime-synchronized-events-a074efbd00d3), but for a lemonade stand game as an example.
 
 Can be reused for any single player gameplay, where the “character” has an auditable saved history.
 
