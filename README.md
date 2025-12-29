@@ -1,7 +1,9 @@
 # Verus Game Cartridge (VGC)
 This Whitepaper Summary consolidates Seed Logic, VDXF Architecture, and Economic Model into a single roadmap for the Verus Game Cartridge Protocol.
 
-[Discord discussion](https://discord.com/channels/1180350488256987177/1454957304696012860)
+* [Discord discussion](https://discord.com/channels/1180350488256987177/1454957304696012860)
+* [Whitepaper on github](./Whitepaper-Verus_Game_Cartridge.md)
+* [Google doc version](https://docs.google.com/document/d/1by24h92dooeTK-LjdE98x-hffSgg0QGN4-2uLE2B8ic/edit?usp=sharing)
 
 # Example Lemonade Stand/Stall
 The example in the whitepaper has a focus on the lemonade stand (lemonade stall) game. It was an early ([original 1973](https://en.wikipedia.org/wiki/Lemonade_Stand)) pioneer of the economic game genre.
