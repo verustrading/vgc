@@ -258,6 +258,7 @@ The **Verus Game Cartridge** creates a new standard for blockchain gaming: **"Th
 ### **A.1 Game Loop Diagram**
 
 This mermaid digram can be rendered at mermaid.live  
+```mermaid
 graph TD  
     %% THE WORLD STREAM (Deterministic)  
     subgraph "THE WORLD (Immutable)"  
@@ -293,11 +294,13 @@ graph TD
 
     %% THE OUTPUT  
     S3 \==\>|Proof| V\[AUDITED ASSET VALUE\]
+```
 
 \<image here\>
 
 ### **A.2 Python Audit Script (The "Cartridge Reader")**
 
+```python
 import sys
 
 \# \--- 1\. THE GAME RULES (The Protocol) \---  
@@ -387,6 +390,7 @@ parse\_memo("010A0032")
 \# 2\. Sell 200 Lemonade Batches (02 10 00C8)  
 print("\\n\[Test Case 2: Complex Turn\]")  
 parse\_memo("0301021000C8")
+```
 
 ### **A.3 Location environment**
 
